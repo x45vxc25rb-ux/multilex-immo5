@@ -1,3 +1,5 @@
+"use client";
+
 import { properties } from "@/data/properties";
 import PropertyCard from "./PropertyCard";
 import PropertySlider from "./PropertySlider";
