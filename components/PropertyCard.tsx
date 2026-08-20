@@ -60,6 +60,12 @@ export default function PropertyCard({ property, index }: PropertyCardProps) {
           </div>
         )}
       </div>
+
+      {property.description && (
+        <p className="mt-4 text-sm text-mute leading-relaxed whitespace-pre-line">
+          {property.description}
+        </p>
+      )}
     </article>
   );
 }
