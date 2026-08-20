@@ -32,7 +32,7 @@ export const companyInfo: CompanyInfo = {
   phoneDisplay: "+49 (0) 000 000 0000",
 
   // E-Mail: замените значение ниже на реальный адрес компании.
-  email: "info@multilex-immobilien.de",
+  email: "info@advokat-kanzlei.de",
 
   address: {
     street: "[Straße und Hausnummer einfügen]",
