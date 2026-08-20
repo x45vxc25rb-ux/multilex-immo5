@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { Property } from "@/data/properties";
 
@@ -130,16 +131,12 @@ export default function PropertySlider({ properties }: PropertySliderProps) {
             {price && (
               <p className="mt-1 text-sm md:text-base text-white/90">{price}</p>
             )}
-            <a
-              href="#kontakt"
-              onClick={(e) => {
-                e.preventDefault();
-                document.querySelector("#kontakt")?.scrollIntoView({ behavior: "smooth" });
-              }}
+            <Link
+              href={`/immobilien/${current.id}`}
               className="inline-flex items-center gap-2 mt-6 text-sm uppercase tracking-[0.12em] border-b border-white/80 pb-1 hover:gap-4 transition-all duration-300 ease-premium"
             >
               Details ansehen <span aria-hidden>→</span>
-            </a>
+            </Link>
           </div>
 
           {/* Navigation */}
