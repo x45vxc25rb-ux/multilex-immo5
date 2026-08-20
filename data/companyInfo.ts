@@ -28,16 +28,16 @@ export const companyInfo: CompanyInfo = {
   // Телефон: замените значение ниже на реальный номер компании.
   // phone — используется как href="tel:", поэтому в международном формате без пробелов.
   // phoneDisplay — то, что видит пользователь на странице.
-  phone: "+49 000 0000000",
-  phoneDisplay: "+49 (0) 000 000 0000",
+  phone: "+491743079393",
+  phoneDisplay: "+49 174 3079393",
 
   // E-Mail: замените значение ниже на реальный адрес компании.
   email: "info@advokat-kanzlei.de",
 
   address: {
-    street: "[Straße und Hausnummer einfügen]",
-    zip: "[PLZ]",
-    city: "[Stadt einfügen]",
+    street: "Strahlenbergerstr. 105",
+    zip: "63067",
+    city: "Offenbach am Main",
     country: "Deutschland",
   },
 
